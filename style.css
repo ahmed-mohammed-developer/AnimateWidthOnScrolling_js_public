@@ -38,3 +38,16 @@
      background-color: indianred;
      transition: width 0.3s linear;
    }
+
+   @media (width < 700px ) {
+     .progress {
+         
+          width: 300px;
+        }
+   }
+   @media (width < 350px ) {
+     .progress {
+         
+          width: 200px;
+        }
+   }
